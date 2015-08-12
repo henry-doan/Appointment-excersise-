@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Demo project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="entry-content contact-content">
+            <h3>Use the following form to contact us or schedule an appointment</h3>
+            <form action="" method="post" class="appointment-form">
+                <p>
+                    <label for="the_name">Your name (required)</label>
+                    <input type="text" name="the_name" id="the_name" value="">
+                </p>
+                <p>
+                    <label for="the_email">Your Phone Number (required)</label>
+                    <input type="text" name="the_Number" id="the_Number" value="">
+                </p>
+                <p>
+                    <label for="app_date">Desired date</label>
+                    <input type="text" name="app_date" id="app_date" class="datepicker" value="">
+                </p>
+                <div class="service-select">
+                    <p>
+                        <label for="service_select">Service</label>
+                        <select name="service_select" id="service_select" class="">
+                            <option value="">&nbsp;</option>
+                            <option class="level-0" value="53">Pedicure</option>
+                            <option class="level-0" value="37">Manicure</option>
+                            <option class="level-0" value="35">Eyebrow wax</option>
+                            <option class="level-0" value="34">Full set</option>
+                            <option class="level-0" value="33">Acrylics</option>
+                            <option class="level-0" value="31">Nail Art</option>
+                            <option class="level-0" value="30">SPA</option>
+                        </select>
+                    </p>
+                </div>
+                <p>
+                    <label for="the_message">Message (e.g. special instructions, convenient timeframe, etc)</label>
+                    <textarea name="the_message" id="the_message" cols="30" rows="10"></textarea>
+                </p>
+                <p>
+                    <input type="submit" class="btn" name="send_appointment" id="send_appointment" value="Send">
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+<script type="text/javascript"></script>
+
+</html>
